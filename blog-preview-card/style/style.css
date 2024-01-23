@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;600;800&display=swap');
+
+:root {
+  --Yellow: hsl(47, 88%, 63%);
+  --Pure-White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 50%);
+  --Black: hsl(0, 0%, 7%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Figtree', sans-serif;
+  background-color: var(--Yellow);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.container {
+  max-width: 384px;
+}
+
+.wrapper {
+  background-color: var(--Pure-White);
+  padding: 24px;
+  gap: 24px;
+  border-radius: 20px;
+  border: 1px solid var(--Black);
+  box-shadow: 8px 8px 0px 0px #000;
+}
+
+.blog-image img {
+  border-radius: 10px;
+}
+
+.card-content h1 {
+  width: 82px;
+  padding: 6px;
+  margin-top: 24px;
+  background: var(--Yellow);
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.card-content h2 {
+  padding-bottom: 12px;
+}
+
+.title:hover {
+  color: var(--Yellow);
+  cursor: pointer;
+}
+
+.publish-date {
+  font-family: 'Figtree', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  padding-top: 12px;
+  padding-bottom: 15px;
+}
+
+.description {
+  color: var(--Grey);
+  padding-bottom: 24px;
+  line-height: 1.5;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+}
+
+.author img {
+  width: 32px;
+  height: 32px;
+  margin-right: 12px;
+}
+
+.author p {
+  font-size: 0.875rem;
+
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 375px) {
+  .container {
+    padding: 24px;
+  }
+
+  .blog-image img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .category {
+    font-size: 0.75rem;
+  }
+  .publish-date {
+    font-size: 0.75rem;
+  }
+
+  .card-content h2 {
+    font-size: 1.25rem;
+  }
+
+  .description {
+    font-size: 0.875rem;
+
+    font-size: 0.75rem;
+  }
+  .publish-date {
+    font-size: 0.75rem;
+  }
+
+  .card-content h2 {
+    font-size: 1.25rem;
+  }
+
+  .description {
+    font-size: 0.875rem;
+  }
+}
+
+   
