@@ -7,10 +7,10 @@ This is a solution for challenge [Blog Preview Card from Frontend Mentor](https:
 ### Screenshot
 
 - Desktop Solution
-  ![desktop-design](/assets/images/fe-mentor-blog-preview-card-desktop-solution.png)
+  ![desktop-design](/blog-preview-card/assets/images/fe-mentor-blog-preview-card-desktop-solution.png)
 
 - Mobile Solution <br />
-  ![mobile-design](/assets/images/fe-mentor-blog-preview-card-mobile-solution.png)
+  ![mobile-design](/blog-preview-card/assets/images/fe-mentor-blog-preview-card-mobile-solution.png)
 
 ### Links
 
