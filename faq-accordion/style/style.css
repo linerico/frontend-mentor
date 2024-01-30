@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Light-Pink: hsl(275, 100%, 97%);
+  --Grayish-Purple: hsl(292, 16%, 49%);
+  --Purple: hsl(293, 65%, 57%);
+  --Dark-Purple: hsl(292, 42%, 14%);
+}
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-size: 16px;
+  font-family: 'Work Sans';
+  background: url(/faq-accordion/assets/images/background-pattern-desktop.svg);
+  background-repeat: repeat-x;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: var(--Light-Pink);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container {
+  width: 550px;
+  background-color: var(--White);
+  border-radius: 10px;
+  margin: 30px;
+}
+
+.wrapper {
+  padding: 30px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  display: flex;
+  gap: 20px;
+}
+
+.title h1 {
+  font-size: 2.75rem;
+}
+
+.title img {
+  width: 30px;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0px;
+}
+
+.accordion::before {
+  border: 2px solid white;
+}
+
+.label {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+
+.label:hover {
+  cursor: pointer;
+}
+
+.label:hover h2 {
+  color: var(--Purple);
+}
+
+.label h2 {
+  font-size: 16px;
+}
+
+.accordion .panel p {
+  color: var(--Grayish-Purple)
+}
+
+.hide {
+  display: none;
+  transition: 10s ease-in-out;
+}
+
+hr {
+  border: 1px solid var(--Light-Pink);
+}
+
+@media only screen and (max-width: 550px) {
+  
+}
